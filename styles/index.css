@@ -1,0 +1,29 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    animation: fadeIn 0.5s;
+}
+
+.page-title {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.recipe-list {
+    display: inline-block;
+    text-align: left;
+    
+}
+
+a {
+    color: inherit;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+
